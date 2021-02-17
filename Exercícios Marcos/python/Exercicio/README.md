@@ -4,7 +4,7 @@ This project makes an easy searching for github users repositories
 
 ## Installation
 
-- Extract the .zip file to location
+- Clone the repo
 - Install _requests_ library using pip:
 ``` 
 pip install requests
@@ -12,8 +12,8 @@ pip install requests
 
 ## Running the code
 
-- Open the project folder in a development tool
-- Run the code using Python compiler
+- Open the project folder "Exercício" in a development tool
+- Run the code "main.py" using Python compiler
 
 ```
 when asked to enter an github user's name:
