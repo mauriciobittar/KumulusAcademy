@@ -57,9 +57,9 @@ def main():
 
 
 def bynary_to_json(response_bynary):
-    response_string = response_bynary.decode('utf8').replace("'", '"')
+     response_string = response_bynary.decode('utf8')
 
-    return json.loads(response_string)
+     return json.loads(response_string)
 
 def print_repositories(user):
     print("\nUser name: ", user.get_name())
